@@ -4,7 +4,7 @@ async function usaEndereco() {
   const end = new Endereco();
 
   try {
-    await end.setCep('72015565');
+    await end.setCep('72015025');
 
     console.log('✅ Endereço carregado com sucesso:');
     console.log('CEP:', end.getCep());
